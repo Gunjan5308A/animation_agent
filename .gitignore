@@ -1,0 +1,34 @@
+# Environments & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*credential*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+
+# Manim / generated video output
+media/
+rendered_scenes/
+*.mp4
+!**/assets/*.mp4
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
